@@ -1,5 +1,4 @@
-
-
 #!/bin/bash
+gcc -s masm=intel $CFILE -o ${CFILE//'.c'/'.s'}
 
 
