@@ -27,8 +27,8 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		return (0);
 	r[l] = '\0';
 	for (k = l - 1 ; k >= 0 ; k--)
-	{
-		i--;
+        {
+	        i--;
 		j--;
 		if (i >= 0)
 			f = n1[i] - '0';
@@ -40,8 +40,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 			s = 0;
 		r[k] = (f + s + d) % 10 + '0';
 		d = (f + s + d) / 10;
-	
-
+	}
 	if (d == 1)
 	{
 		r[l + 1] = '\0';
