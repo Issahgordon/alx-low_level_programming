@@ -1,17 +1,12 @@
-nclude "main.h"
-
+#include "main.h"
 /**
+ * _memset - fills memory with a constant byte
  *
- * * _memset - fills memory with a constant byte
- *
- * *
- * * @s: pointer to string
- *
- * * @b: constant byte
- * * @n: first bytes to change *
-* * Return: pointer to modified string
- 
- * */
+ * @s: pointer to string*
+ * @b: constant byte*
+ * @n: first bytes to change
+ * Return: pointer to modified string
+ */
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
