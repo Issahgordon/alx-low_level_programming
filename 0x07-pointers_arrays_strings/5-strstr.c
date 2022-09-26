@@ -20,8 +20,7 @@ for (j = 1; needle[j] != '\0'; j++)
 {
 if (needle[j] != haystack[i + j])
 {
-match= 0;
-
+match = 0;
 break;
 }
 match = 1;
