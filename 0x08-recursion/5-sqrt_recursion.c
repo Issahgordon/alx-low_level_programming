@@ -1,5 +1,5 @@
 #include "main.h"
-:WQ
+
 /**
  * _increasevar - increases i to find sqrt
  * @i: starts at 1
@@ -9,11 +9,11 @@
 int _increasevar(int i, int n)
 {
 	if (i * i == n)
-		return (i);
+	return (i);
 	if (i * i < n)
-		return (_increasevar(i + 1, n));
+	return (_increasevar(i + 1, n));
 	if (i * i > n)
-		return (-1);
+	return (-1);
 	return (i);
 }
 /**
@@ -33,7 +33,7 @@ int _sqrt_recursion(int n)
 		return (1);
 	else if (n > 1)
 	{
-		return (_increasevar(1, n));
+	return (_increasevar(1, n));
 	}
 return (-1);
 }
