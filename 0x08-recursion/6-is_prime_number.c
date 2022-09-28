@@ -16,10 +16,10 @@ int _isitprime(int n, int i)
 	}
 	else
 	{
-		if (n % i == 0)
-		return (0);
-		else
-		return (_isitprime(n, i - 1));
+	if (n % i == 0)
+	return (0);
+	else
+	return (_isitprime(n, i - 1));
 	}
 }
 /**
